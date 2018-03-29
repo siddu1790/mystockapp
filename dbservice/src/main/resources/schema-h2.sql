@@ -1,0 +1,1 @@
+create table Quote(id integer not null auto_increment, user_name varchar(255), quote varchar(255))

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eurekaservice
+
+server:
+  port: 8032
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
